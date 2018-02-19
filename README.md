@@ -4,6 +4,12 @@ This kubectl plugin is made to control
 [skipper ingress](https://zalando.github.io/skipper/kubernetes/ingress-usage)
 and use it's features easily.
 
+## Prerequisites
+
+You should have a running Kubernetes cluster with a working skipper
+ingress controller.
+[Install skipper as ingress controller](https://zalando.github.io/skipper/kubernetes/ingress-controller).
+
 ## Install
 
 Just copy the plugin to your `~/.kube/plugins` folder.
